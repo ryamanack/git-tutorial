@@ -1,13 +1,13 @@
-for i 1..100 do
+for i in 1..100 do
 
 	if(i%3==0&&i%5==0)
-		print("FizzBuzz")
+		puts "FizzBuzz"
 	elsif(i%3==0)
-		print("Fizz")
+		puts "Fizz"
 	elsif(i%5==0)
-		print("Buzz")
+		puts "Buzz"
 	else
-		print(i)
+		puts "#{i}"
 	end
 
 end
